@@ -1,0 +1,82 @@
+{
+  "runtime": {
+    "version": "Lua 5.1"
+  },
+  "diagnostics": {
+    "globals": [
+      "GLOBAL",
+      "TheWorld",
+      "ThePlayer",
+      "TheNet",
+      "TheSim",
+      "TheFrontEnd",
+      "TheInput",
+      "TheCamera",
+      "TheFocalPoint",
+      "TheMixer",
+      "TheGlobalInstance",
+      "TheGlobalInstanceProxy",
+      "TheGlobalInstanceProxyTable",
+      "TheGlobalInstanceProxyTableMeta",
+      "TheGlobalInstanceProxyTableMetaIndex",
+      "TheGlobalInstanceProxyTableMetaNewIndex",
+      "TheGlobalInstanceProxyTableMetaCall",
+      "TheGlobalInstanceProxyTableMetaToString",
+      "TheGlobalInstanceProxyTableMetaEq",
+      "TheGlobalInstanceProxyTableMetaLt",
+      "TheGlobalInstanceProxyTableMetaLe",
+      "TheGlobalInstanceProxyTableMetaLen",
+      "TheGlobalInstanceProxyTableMetaConcat",
+      "TheGlobalInstanceProxyTableMetaUnm",
+      "TheGlobalInstanceProxyTableMetaAdd",
+      "TheGlobalInstanceProxyTableMetaSub",
+      "TheGlobalInstanceProxyTableMetaMul",
+      "TheGlobalInstanceProxyTableMetaDiv",
+      "TheGlobalInstanceProxyTableMetaMod",
+      "TheGlobalInstanceProxyTableMetaPow",
+      "TheGlobalInstanceProxyTableMetaBAnd",
+      "TheGlobalInstanceProxyTableMetaBOr",
+      "TheGlobalInstanceProxyTableMetaBXor",
+      "TheGlobalInstanceProxyTableMetaShl",
+      "TheGlobalInstanceProxyTableMetaShr",
+      "TheGlobalInstanceProxyTableMetaIDiv",
+      "TheGlobalInstanceProxyTableMetaBNot",
+      "TheGlobalInstanceProxyTableMetaBAnd",
+      "TheGlobalInstanceProxyTableMetaBOr",
+      "TheGlobalInstanceProxyTableMetaBXor",
+      "TheGlobalInstanceProxyTableMetaShl",
+      "TheGlobalInstanceProxyTableMetaShr",
+      "TheGlobalInstanceProxyTableMetaIDiv",
+      "TheGlobalInstanceProxyTableMetaBNot"
+    ]
+  },
+  "workspace": {
+    "library": [
+      "src"
+    ]
+  },
+  "completion": {
+    "enable": true,
+    "callSnippet": "Both",
+    "keywordSnippet": "Both"
+  },
+  "hint": {
+    "enable": true,
+    "setType": true,
+    "paramType": true,
+    "paramName": "All",
+    "arrayIndex": "Auto"
+  },
+  "disable": {
+    "lowercase-global": "off"
+  },
+  "format": {
+    "enable": true,
+    "defaultConfig": {
+      "indent_style": "space",
+      "indent_size": "4",
+      "quote_style": "double",
+      "call_parentheses": "always"
+    }
+  }
+}
